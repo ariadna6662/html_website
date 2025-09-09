@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио фотографа | Анна Иванова</title>
+    <meta name="description" content="Профессиональная фотосъемка в Москве. Портреты, свадьбы, коммерческая фотография.">
+</head>
+<body>
+    <!-- Шапка сайта: используется тег <header> для вводной части всего сайта -->
+    <header class="main-header">
+        <div class="logo">
+            <h1>Анна Иванова</h1>
+            <p>Фотограф</p>
+        </div>
+
+        <!-- Основная навигация по сайту: тег <nav> для главного меню -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#blog">Блог</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основное содержимое страницы: тег <main> для уникального контента -->
+    <main>
+        <!-- Герой-секция: тег <section> для смыслового раздела -->
+        <section class="hero">
+            <h2>Запечатлю ваши эмоции</h2>
+            <p>Профессиональная фотосъемка в Москве и области</p>
+            <button>Забронировать съемку</button>
+        </section>
+
+        <!-- Раздел портфолио: тег <section> с идентификатором для якорных ссылок -->
+        <section id="portfolio">
+            <header>
+                <h2>Мое портфолио</h2>
+                <p>Лучшие работы за 2025 год</p>
+            </header>
+
+            <!-- Каждая работа является независимой единицей контента - используем <article> -->
+            <article class="portfolio-item">
+                <h3>Свадебная фотосъемка</h3>
+                
+                <!-- Группируем изображение с подписью с помощью <figure> и <figcaption> -->
+                <figure>
+                    <img src="placeholder-wedding.jpg" alt="Свадебная фотография у озера" width="400" height="300">
+                    <figcaption>Съемка свадьбы у озера, июнь 2025</figcaption>
+                </figure>
+                <p>Серия снимков с свадебной церемонии на природе. Естественные эмоции и теплая атмосфера.</p>
+                <time datetime="2025-06-15">15 июня 2025</time>
+            </article>
+
+            <article class="portfolio-item">
+                <h3>Портретная съемка</h3>
+                <figure>
+                    <img src="placeholder-portrait.jpg" alt="Женский портрет в студии" width="400" height="300">
+                    <figcaption>Студийный портрет, май 2025</figcaption>
+                </figure>
+                <p>Индивидуальная портретная съемка в профессиональной студии с естественным светом.</p>
+                <time datetime="2025-05-22">22 мая 2025</time>
+            </article>
+
+            <article class="portfolio-item">
+                <h3>Коммерческая фотография</h3>
+                <figure>
+                    <img src="placeholder-commercial.jpg" alt="Фотография продукции для каталога" width="400" height="300">
+                    <figcaption>Съемка для каталога одежды, апрель 2025</figcaption>
+                </figure>
+                <p>Предметная съемка для интернет-магазина женской одежды.</p>
+                <time datetime="2025-04-10">10 апреля 2025</time>
+            </article>
+        </section>
+
+        <!-- Раздел "Обо мне": еще одна смысловая секция -->
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Я профессиональный фотограф с 5-летним опытом работы. Специализируюсь на портретной, свадебной и коммерческой фотографии.</p>
+            <p>Закончила Московскую школу фотографии и мультимедиа им. Родченко. Участник международных выставок современной фотографии.</p>
+            
+            <!-- Дополнительная информация, косвенно связанная с основным контентом - используем <aside> -->
+            <aside>
+                <h3>Награды и достижения</h3>
+                <ul>
+                    <li>Лучший молодой фотограф 2024 по версии Photo Awards Russia</li>
+                    <li>Финалист конкурса International Photography Grant 2023</li>
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Раздел услуг: еще одна смысловая секция -->
+        <section id="services">
+            <h2>Мои услуги</h2>
+            
+            <!-- Каждая услуга является отдельным смысловым блоком -->
+            <article class="service">
+                <h3>Свадебная фотосъемка</h3>
+                <p>Полный день съемки: от подготовки невесты до завершения банкета.</p>
+                <p>Стоимость: от 50 000 руб.</p>
+            </article>
+
+            <article class="service">
+                <h3>Портретная съемка</h3>
+                <p>Индивидуальная или групповая портретная съемка в студии или на выезде.</p>
+                <p>Стоимость: от 15 000 руб.</p>
+            </article>
+
+            <article class="service">
+                <h3>Коммерческая съемка</h3>
+                <p>Съемка продукции, предметная съемка для каталогов и рекламных материалов.</p>
+                <p>Стоимость: от 20 000 руб.</p>
+            </article>
+        </section>
+
+        <!-- Блог: самостоятельные статьи -->
+        <section id="blog">
+            <h2>Последние записи в блоге</h2>
+            
+            <!-- Каждая запись блога является независимой и самодостаточной -->
+            <article class="blog-post">
+                <header>
+                    <h3>Как подготовиться к свадебной съемке</h3>
+                    <p>Опубликовано <time datetime="2025-08-20">20 августа 2025</time></p>
+                </header>
+                <p>Советы по подготовке к самому важному дню в вашей жизни...</p>
+                <a href="#">Читать далее</a>
+            </article>
+
+            <article class="blog-post">
+                <header>
+                    <h3>Топ-10 локаций для фотосессии в Москве</h3>
+                    <p>Опубликовано <time datetime="2025-07-15">15 июля 2025</time></p>
+                </header>
+                <p>Подборка самых живописных мест для фотосессий в столице...</p>
+                <a href="#">Читать далее</a>
+            </article>
+        </section>
+
+        <!-- Раздел контактов -->
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Свяжитесь со мной для обсуждения вашей фотосессии</p>
+            
+            <!-- Контактная информация: можно использовать тег <address> -->
+            <address>
+                <p>Email: <a href="mailto:anna@example.com">anna@example.com</a></p>
+                <p>Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                <p>Москва, ул. Фотографов, 25</p>
+            </address>
+
+            <!-- Форма для связи -->
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Боковая панель: дополнительный контент, связанный с основным -->
+    <aside class="sidebar">
+        <section>
+            <h3>Свяжитесь со мной</h3>
+            <p>Готовы обсудить ваш проект? Напишите мне!</p>
+            <button>Написать сообщение</button>
+        </section>
+
+        <section>
+            <h3>Отзывы клиентов</h3>
+            
+            <!-- Каждый отзыв является законченной смысловой единицей -->
+            <article class="testimonial">
+                <blockquote>
+                    "Анна сделала прекрасные свадебные фотографии! Они получились естественными и живыми."
+                </blockquote>
+                <p>— Мария и Иван, июнь 2025</p>
+            </article>
+
+            <article class="testimonial">
+                <blockquote>
+                    "Профессиональный подход и умение работать со светом. Очень доволен коммерческой съемкой для каталога."
+                </blockquote>
+                <p>— Алексей, владелец бутика, май 2025</p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Расписание съемок</h3>
+            <p>Сентябрь 2025: доступно 5 дней для съемки</p>
+            <p>Октябрь 2025: доступно 8 дней для съемки</p>
+        </section>
+    </aside>
+
+    <!-- Подвал сайта: используем тег <footer> для заключительной информации -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Анна Иванова</h4>
+                <p>Профессиональный фотограф в Москве</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Навигация</h4>
+                <!-- Второстепенная навигация - не оборачиваем в <nav>, так как это не основная навигация -->
+                <ul>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Социальные сети</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">VK</a></li>
+                    <li><a href="#">Telegram</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <address>
+                    <p>Email: <a href="mailto:anna@example.com">anna@example.com</a></p>
+                    <p>Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                </address>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2025 Анна Иванова. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
